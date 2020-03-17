@@ -11,7 +11,7 @@ configuration 子节点为 appender、logger、root
 
     <!--日志文件所在目录，如果是tomcat，如下写法日志文件会在则为${TOMCAT_HOME}/bin/logs/目录下-->
     <!--<property name="LOG_HOME" value="/Users/hualeel/Projects/tsf-demo/springcloud-log-demo/slf4j-logback-demo/logs"/>-->
-    <property name="LOG_HOME" value="/Users/hualeel/Projects/tsf-demo/springcloud-log-demo/slf4j-logback-demo/logs" />
+    <property name="ALL_LOG_PATH" value="/data/tsf_logs" />
 
     <!--定义pattern-->
     <property name="ALL_LOG_PATTERN"
