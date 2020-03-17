@@ -1,0 +1,21 @@
+2020-03-16 01:06:15 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.Slf4jLogbackDemoApplication[0;39m | Starting Slf4jLogbackDemoApplication on MacBook-Pro-5.local with PID 3437 (/Users/hualeel/Projects/tsf-demo/springcloud-log-demo/slf4j-logback-demo/target/classes started by hualeel in /Users/hualeel/Projects/tsf-demo/springcloud-log-demo/slf4j-logback-demo)
+2020-03-16 01:06:15 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.Slf4jLogbackDemoApplication[0;39m | No active profile set, falling back to default profiles: default
+2020-03-16 01:06:17 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat initialized with port(s): 6001 (http)
+2020-03-16 01:06:17 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Initializing ProtocolHandler ["http-nio-6001"]
+2020-03-16 01:06:17 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.apache.catalina.core.StandardService[0;39m | Starting service [Tomcat]
+2020-03-16 01:06:17 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.apache.catalina.core.StandardEngine[0;39m | Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-16 01:06:17 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m | Initializing Spring embedded WebApplicationContext
+2020-03-16 01:06:17 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.springframework.web.context.ContextLoader[0;39m | Root WebApplicationContext: initialization completed in 1656 ms
+2020-03-16 01:06:18 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-16 01:06:18 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.apache.coyote.http11.Http11NioProtocol[0;39m | Starting ProtocolHandler ["http-nio-6001"]
+2020-03-16 01:06:18 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m | Tomcat started on port(s): 6001 (http) with context path ''
+2020-03-16 01:06:18 | [34mINFO [0;39m | [1;33mmain[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.Slf4jLogbackDemoApplication[0;39m | Started Slf4jLogbackDemoApplication in 3.127 seconds (JVM running for 4.688)
+2020-03-16 01:07:15 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-1[0;39m | [1;32morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-16 01:07:15 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-1[0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Initializing Servlet 'dispatcherServlet'
+2020-03-16 01:07:15 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-1[0;39m | [1;32morg.springframework.web.servlet.DispatcherServlet[0;39m | Completed initialization in 9 ms
+2020-03-16 01:07:16 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-1[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.controller.Controller[0;39m | java log test:slf4j+logback  path variable:dddddd
+2020-03-16 01:07:16 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-2[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.controller.Controller[0;39m | java log test:slf4j+logback  path variable:dddddd
+2020-03-16 01:10:43 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-5[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.controller.Controller[0;39m | java log test:slf4j+logback  path variable:dddddd
+2020-03-16 01:10:43 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-6[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.controller.Controller[0;39m | java log test:slf4j+logback  path variable:dddddd
+2020-03-16 01:10:43 | [34mINFO [0;39m | [1;33mhttp-nio-6001-exec-7[0;39m | [1;32mcom.hua.spring_cloud_log.slf4j_logback_demo.controller.Controller[0;39m | java log test:slf4j+logback  path variable:dddddd
+2020-03-16 16:23:18 | [34mINFO [0;39m | [1;33mSpringContextShutdownHook[0;39m | [1;32morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m | Shutting down ExecutorService 'applicationTaskExecutor'
