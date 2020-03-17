@@ -9,13 +9,12 @@ ENV workdir /app/
 
 # 拷贝jar
 ENV jarfile_name slf4j-logback-demo-0.0.1-SNAPSHOT.jar
-ENV jar slf4j-logback-demo-0.0.1-SNAPSHOT.jar
+ENV jar target/slf4j-logback-demo-0.0.1-SNAPSHOT.jar
 COPY ${jar} ${workdir}
 WORKDIR ${workdir}
 
 # JAVA_OPTS 环境变量的值为部署组的 JVM 启动参数，在运行时 bash 替换。使用 exec 以使 Java 程序可以接收 SIGTERM 信号。
-JAVA_OPTS=-Xms128m -Xmx512m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=512m
+ENV JAVA_OPTS -Xms128m -Xmx512m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=512m
 
-RUN mkdir -p /data/tsf_std/stdout/logs
 RUN mkdir -p /data/tsf_logs
-CMD ["exec java ${JAVA_OPTS} -jar ${jarfile_name} 2>&1 > /data/tsf_std/stdout/logs/sys_log.log"]
+CMD ["sh", "-ec", "exec java ${JAVA_OPTS} -jar ${jarfile_name}"]
